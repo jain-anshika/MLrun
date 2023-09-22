@@ -5,6 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
 
+
 input_csv_path = 'accumulated_data.csv'
 
 df = pd.read_csv(input_csv_path)
